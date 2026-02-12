@@ -4,7 +4,7 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Label } from '@/components/ui/label';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import type { BirthDetails, CityResult } from '@/types/astrology';
+import type { BirthDetails, CityResult, Gender } from '@/types/astrology';
 import { searchCities } from '@/lib/geocoding';
 import { getTimezoneOffset } from '@/lib/astro-engine';
 
@@ -164,7 +164,7 @@ export default function BirthForm({ onSubmit, isCalculating }: Props) {
   const handleSubmit = () => {
     if (!validate()) return;
     const convert = (d: PersonData): BirthDetails => ({
-      name: d.name.trim(), gender: d.gender as any,
+      name: d.name.trim(), gender: d.gender as Gender,
       day: parseInt(d.day), month: parseInt(d.month), year: parseInt(d.year),
       hour: parseInt(d.hour), minute: parseInt(d.minute), second: parseInt(d.second || '0'),
       place: d.place, latitude: d.latitude, longitude: d.longitude,

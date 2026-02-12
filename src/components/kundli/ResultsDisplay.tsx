@@ -21,7 +21,7 @@ export default function ResultsDisplay({ results, boyName, girlName, onReset }: 
   const handleShare = async () => {
     const text = `Kundli Matching: ${boyName} & ${girlName} scored ${results.totalScore}/36 (${results.percentage}%)`;
     if (navigator.share) {
-      try { await navigator.share({ title: 'Kundli Match', text, url: window.location.href }); } catch {}
+      try { await navigator.share({ title: 'Kundli Match', text, url: window.location.href }); } catch { /* empty */ }
     } else {
       await navigator.clipboard.writeText(text);
       toast.success('Copied to clipboard!');

@@ -31,10 +31,13 @@ const Index = () => {
       {/* Hero */}
       <header className="py-10 md:py-14 text-center bg-gradient-to-b from-primary/8 to-background border-b border-border/50">
         <h1 className="text-3xl md:text-5xl font-bold text-foreground mb-2 tracking-tight">
-          🕉️ Kundli Matching
+          Cosmic Harmony Match
+        </h1>
+        <h1 className="text-2xl md:text-3xl  text-foreground mb-2 tracking-tight">
+          🕉️ Kundli Matching 🕉️ 
         </h1>
         <p className="text-base md:text-lg text-muted-foreground max-w-xl mx-auto px-4">
-          Free & instant Ashtakoot Guna Milan — discover compatibility through ancient Vedic wisdom
+          <b>Free & instant </b>Ashtakoot Guna Milan discover compatibility through ancient Vedic wisdom
         </p>
       </header>
 
@@ -55,7 +58,7 @@ const Index = () => {
       </main>
 
       <footer className="py-6 text-center text-xs text-muted-foreground border-t border-border/50">
-        <p>© 2025 Kundli Matching · For educational purposes only</p>
+        <p>© Cosmic Harmony Match · For educational purposes only · Made by ankitmadridista</p>
         <p className="mt-1">Astrology is interpretative. Consult a qualified astrologer for personalized guidance.</p>
       </footer>
     </div>

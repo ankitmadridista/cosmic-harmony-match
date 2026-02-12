@@ -1,6 +1,8 @@
+export type Gender = "male" | "female" | "other";
+
 export interface BirthDetails {
   name: string;
-  gender: 'male' | 'female' | 'other';
+  gender: Gender;
   day: number;
   month: number;
   year: number;
