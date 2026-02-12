@@ -1,18 +1,17 @@
-# Welcome to your Lovable project
+# Welcome to cosmic-harmony-match
 
 ## Project info
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+**URL**: [Cosmic Harmony Match](https://cosmicharmonymatch.vercel.app)
+
+This is a web-based Kundli Matching application that allows users to check astrological compatibility between couples based on their birth details. The app generates Janam Kundli (birth charts), performs Ashtakoot Guna Milan, identifies Manglik Dosha, and provides detailed insights for a healthy marital life according to Vedic Astrology.
+
+Users can input their birth details including date, time (optional), and place. The app leverages free astrology APIs to provide instant and accurate results. Perfect for anyone interested in horoscope-based matchmaking.
+
 
 ## How can I edit this code?
 
 There are several ways of editing your application.
-
-**Use Lovable**
-
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
-
-Changes made via Lovable will be committed automatically to this repo.
 
 **Use your preferred IDE**
 
@@ -59,15 +58,3 @@ This project is built with:
 - React
 - shadcn-ui
 - Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
