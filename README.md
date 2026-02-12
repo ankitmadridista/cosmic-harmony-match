@@ -2,7 +2,7 @@
 
 ## Project info
 
-**URL**: [Live](https://cosmicharmonymatch.vercel.app)
+**URL**: [Cosmic Harmony Match](https://cosmicharmonymatch.vercel.app)
 
 This is a web-based Kundli Matching application that allows users to check astrological compatibility between couples based on their birth details. The app generates Janam Kundli (birth charts), performs Ashtakoot Guna Milan, identifies Manglik Dosha, and provides detailed insights for a healthy marital life according to Vedic Astrology.
 
