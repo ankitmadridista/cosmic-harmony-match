@@ -1,7 +1,7 @@
 interface Props { score: number; maxScore: number; }
 
 export default function ScoreGauge({ score, maxScore }: Props) {
-  const pct = (score / maxScore) * 100;
+  const pct = +(score / maxScore * 100).toFixed(2);
   const r = 75;
   const circ = 2 * Math.PI * r;
   const offset = circ - (pct / 100) * circ;
